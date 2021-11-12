@@ -41,6 +41,9 @@ module.exports = {
   }]
 };
 
+# Ejecución de un determinado ecosistema
+
+pm2 start ecosystem.config.js --env local
 
 # Ejecución
 
