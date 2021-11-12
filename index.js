@@ -11,7 +11,7 @@ const app = express()
 app.use(morgan('dev'));
 
 app.get('/', function (req, res) {
-    res.send('Esta es información obtenidad desde tu API')
+    res.send('Esta es información obtenidad desde tu API!!')
 })
 
 app.get('/version', function (req, res) {
