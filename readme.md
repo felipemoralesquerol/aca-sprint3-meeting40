@@ -69,3 +69,13 @@ gzip on;
 gzip_disable "MSIE [1-6]\.(?!.*SV1)";
 gzip_vary on;
 gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon application/javascript application/x-javascript;
+
+# Resguardo de pm2 tras reboot
+
+  - Ejecutar:
+
+    ```pm2 startup```
+
+  - Copiar, pegar y ejecutar:
+
+    ```sudo env PATH=$PATH:/home/ec2-user/.nvm/versions/node/v16.11.1/bin /home/ec2-user/.nvm/versions/node/v16.11.1/lib/node_modules/pm2/bin/pm2 startup systemd -u ec2-user --hp /home/ec2-user```
