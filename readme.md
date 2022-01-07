@@ -72,7 +72,7 @@ gzip_types text/plain text/css text/javascript image/svg+xml image/x-icon applic
 
 # Resguardo de pm2 tras reboot
 
-  - Ejecutar:
+  - Ejecutar el siguiente comando y el resultado que devuelve copiar, pegarlo y ejecutarlo en terminal:
 
     ```pm2 startup```
 
